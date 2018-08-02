@@ -1,0 +1,1 @@
+my personal wsl config script
