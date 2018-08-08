@@ -26,7 +26,7 @@ sudo add-apt-repository ppa:webupd8team/java
 
 sudo apt-get update
 
-sudo apt-get install oracle-java8-installer 
+sudo apt-get install oracle-java8-installer -y
 
 # install libreoffice 6
 
@@ -34,7 +34,7 @@ sudo add-apt-repository ppa:libreoffice/libreoffice-prereleases
 
 sudo apt-get update
 
-sudo apt-get install libreoffice
+sudo apt-get install libreoffice -y
 
 # create X environment
 
