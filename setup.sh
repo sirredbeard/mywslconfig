@@ -1,10 +1,8 @@
 #!/bin/bash
 
+# package updating
+
 sudo apt-get update
-
-sudo apt-get remove ebtables systemd -y --allow-remove-essential
-
-sudo apt-get remove ebtables systemd -y --allow-remove-essential
 
 sudo apt-get autoremove -y
 
@@ -29,3 +27,19 @@ sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 
 sudo apt-get install oracle-java8-installer 
+
+# install libreoffice 6
+
+sudo add-apt-repository ppa:libreoffice/libreoffice-prereleases
+
+sudo apt-get update
+
+sudo apt-get install libreoffice
+
+# create X environment
+
+export DISPLAY=:0
+export LIBGL_ALWAYS_INDIRECT=1
+
+echo "export DISPLAY=:0" >> .bashrc
+echo "export LIBGL_ALWAYS_INDIRECT=1" >> .bashrc
