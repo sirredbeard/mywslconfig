@@ -10,13 +10,7 @@ sudo apt-get upgrade -y
 
 # install regular packages
 
-sudo apt-get install aria2 youtube-dl synaptic -y 
-
-# install firefox beta
-
-sudo add-apt-repository ppa:mozillateam/firefox-next -y
-
-sudo apt-get install firefox -y
+sudo apt-get install aria2 youtube-dl synaptic firefox -y 
 
 # install java 8
 
